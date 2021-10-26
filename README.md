@@ -17,7 +17,7 @@ This is a tutorial for testing in android with Kotlin
 ``Integration test``
 
 * Test two components of our app work together (e.g. fragment and viewmodel)
-* Integrated test are diferent because to do this an emulator is needed
+* Instrumented Unit test are diferent because to do this an emulator is needed
 
 ``UI test``
 
@@ -33,3 +33,17 @@ This is a tutorial for testing in android with Kotlin
     2) Write the test cases for the function
     3) Write the function logic so the test pass
 * You should only have a single assertion per case test
+* Is important to know exactly what test case fail
+
+## What makes good test?
+
+1) Scope: How much of our code or function is cover by a single test case
+2) Speed: How fast our test case run
+3) Fidelity: How close our test case is with real scenario
+
+* Prevent flaky test (Sometimes succeeds, sometimes fails)
+
+## testImplementation and androidTestImplementation
+
+* testImplementation: 
+* androidTestImplementation:
